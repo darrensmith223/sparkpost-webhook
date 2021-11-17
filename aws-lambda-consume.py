@@ -1,3 +1,5 @@
+import boto3
+
 def lambda_handler(event, context):
     
     headers = event.get('headers')
