@@ -1,7 +1,7 @@
-import boto3
+import json
+import boto3, botocore
 
 def lambda_handler(event, context):
-    
     headers = event.get('headers')
     batch_id = headers.get('x-messagesystems-batch-id')
     body = event.get('body')
@@ -12,7 +12,7 @@ def lambda_handler(event, context):
 
     return {
         'statusCode': 200,
-        'body': 'Done'
+        'body': 'done'
     }
 
 
