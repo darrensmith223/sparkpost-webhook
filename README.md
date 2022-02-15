@@ -39,6 +39,6 @@ Alternatively, you may need to transform the data - such as to convert from a JS
 
 ## Getting More Information
 
-More information and detail can be found in the [associated blog post]() (Not yet published)
+More information and detail can be found in the [associated blog post](https://www.sparkpost.com/blog/creating-and-consuming-sparkpost-webhooks/)
 
 
